@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Poppins:wght@300&family=Tajawal:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>shopping basket</title>
+</head>
+
+<body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light " style=" background-color: #2c4755;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: #fff;">E-Commrce</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul">
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" style="color: #fff; ">
+                            Welcome
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">card(2)</a></li>
+                            <li><a class="dropdown-item" href="#">login</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex form">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start shopping cart -->
+    <div class="container">
+        <div class="shopping-cart">
+            <h1>عربة التسوق</h1>
+            <div class="cart">
+                <div class="product">
+                    <h5>منتج</h5>
+                    <div>
+                        <img src="images/47.jpg" alt="">
+                        <p>ساعة تومي هيلفيغر للرجال مينا ازرق بسوار جلدي</p>
+                    </div>
+                    <div class="options">
+                        <a href="#"><i class="far fa-heart"></i> الحفظ لوقت لاحق </a>
+                        <a href="#"><i class="fas fa-trash"></i> حذف </a>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <span>
+                        <h5>الكميه</h5>
+                        <select name="qty" class="qty">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </span>
+                    <span>
+                        <h5>سعر الوحده</h5>
+                        <span style="color: #000;" class="price">499</span>
+                    </span>
+                    <span>
+                        <h5>اجمالي المبلغ</h5>
+                        <span style="color: #0b8da7;" class="cost">499</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="cart">
+                <div class="product">
+                    <h5>منتج</h5>
+                    <div>
+                        <img src="images/47.jpg" alt="">
+                        <p>ساعة تومي هيلفيغر للرجال مينا ازرق بسوار جلدي</p>
+                    </div>
+                    <div class="options">
+                        <a href="#"><i class="far fa-heart"></i> الحفظ لوقت لاحق </a>
+                        <a href="#"><i class="fas fa-trash"></i> حذف </a>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <span>
+                        <h5>الكميه</h5>
+                        <select name="qty" class="qty">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </span>
+                    <span>
+                        <h5>سعر الوحده</h5>
+                        <span style="color: #000;" class="price">500</span>
+                    </span>
+                    <span>
+                        <h5>اجمالي المبلغ</h5>
+                        <span style="color: #0b8da7;" class="cost">500</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end shopping cart -->
+    <!-- start price-product -->
+    <div class="container">
+        <div class="price-product">
+            <span>المبلغ الكلي : <span style="color: #0b8da7; font-weight: bold;">ج.م. 500
+                </span></span>
+        </div>
+    </div>
+    <!-- end price-product -->
+    <!-- start Continue to buy -->
+    <div class="Continue-to-buy">
+        <a href="Continue-to-buy.html">متابعة الشراء</a>
+        <a href="destination.html">الرجوع للموقع</a>
+    </div>
+    <!-- end Continue to buy -->
+    <!-- start product watched early -->
+    <div class="coll">
+        <p> المنتجات التي قمت بمشاهدتها مؤخراً
+        </p>
+    </div>
+    <div class="product-watched-early container">
+        <div class="card-product margin-right">
+            <div class="images">
+                <a href="Product-Description.html">
+                    <img src="images/47.jpg" alt="">
+
+                </a>
+            </div>
+            <div class="Product-Description">
+                <p>Top Luxury Brand Watch Famous Fashion Sports Cool Men Quartz Watches Wristwatch Gift For Male
+                    YZL271X-Black</p>
+                <span>$400</span>
+            </div>
+        </div>
+        <div class="card-product">
+            <div class="images">
+                <a href="Product-Description.html">
+                    <img src="images/48.jfif" alt="">
+                </a>
+            </div>
+            <div class="Product-Description">
+                <p>Top Luxury Brand Watch Famous Fashion Sports Cool Men Quartz Watches Wristwatch Gift For Male
+                    YZL271X-Black</p>
+                <span>$400</span>
+            </div>
+        </div>
+        <div class="card-product">
+            <div class="images">
+                <a href="Product-Description.html">
+                    <img src="images/49.jfif" alt="">
+                </a>
+            </div>
+            <div class="Product-Description">
+                <p>Top Luxury Brand Watch Famous Fashion Sports Cool Men Quartz Watches Wristwatch Gift For Male
+                    YZL271X-Black</p>
+                <span>$400</span>
+            </div>
+        </div>
+        <div class="card-product">
+            <div class="images">
+                <a href="Product-Description.html">
+                    <img src="images/50.jfif" alt="">
+                </a>
+            </div>
+            <div class="Product-Description">
+                <p>Top Luxury Brand Watch Famous Fashion Sports Cool Men Quartz Watches Wristwatch Gift For Male
+                    YZL271X-Black</p>
+                <span>$400</span>
+            </div>
+        </div>
+        <div class="card-product">
+            <div class="images">
+                <a href="Product-Description.html">
+                    <img src="images/48.jfif" alt="">
+                </a>
+            </div>
+            <div class="Product-Description">
+                <p>Top Luxury Brand Watch Famous Fashion Sports Cool Men Quartz Watches Wristwatch Gift For Male
+                    YZL271X-Black</p>
+                <span>$400</span>
+            </div>
+        </div>
+
+    </div>
+    <!-- end product watched early -->
+
+
+
+
+
+
+
+
+    <!-- srart footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="comers">E-Commerce</div>
+            <div class="sp">
+                <span>FAQS </span>
+                <span>Contact Us</span>
+                <span>Privacy Policy </span> <br>
+                <span>Press Kit</span>
+                <span>Install Guide</span>
+            </div>
+            <div class="contact-us">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+    </div>
+    <!-- end footer -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        let qty = document.querySelectorAll('.qty'), cost, price;
+
+        qty.forEach(qt => {
+            qt.onchange = function () {
+                price = this.parentElement.nextElementSibling.children[1];
+                cost = this.parentElement.nextElementSibling.nextElementSibling.children[1];
+                cost.innerText = (parseInt(this.value) * parseInt(price.innerText));
+            }
+        })
+
+        // let cart_product = document.querySelectorAll('.card-product');
+        // let marginRight = document.querySelector('.margin-right');
+        // marginRight.style.cssText = `margin-right: -${cart_product[0].offsetWidth + 220}px`
+
+        // window.onclick = function(){
+        //     console.log(cart_product[cart_product.length - 1]);
+        //     cart_product[cart_product.length - 1].classList.add('margin-right');
+        // }
+    </script>
+</body>
+
+</html>
